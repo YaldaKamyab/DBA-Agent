@@ -1,0 +1,2 @@
+- Types are affinities: INTEGER, TEXT, REAL, NUMERIC, BLOB. Use INTEGER PRIMARY KEY (optionally AUTOINCREMENT) for surrogate keys; store booleans as INTEGER with CHECK (col IN (0,1)); dates/times as TEXT in ISO-8601.
+- Foreign keys are enforced only with PRAGMA foreign_keys = ON (the SQL generator will add it). CHECK, UNIQUE and partial indexes are supported; there are no native enum/uuid/json column types.

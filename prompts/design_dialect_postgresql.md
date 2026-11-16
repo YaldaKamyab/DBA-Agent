@@ -1,0 +1,3 @@
+- Types: INTEGER/BIGINT, GENERATED ALWAYS AS IDENTITY (or SERIAL) for surrogate keys, VARCHAR(n)/TEXT, NUMERIC(p,s), BOOLEAN, DATE, TIME, TIMESTAMP/TIMESTAMPTZ, UUID, JSONB, BYTEA.
+- Enums: prefer a CHECK (col IN (...)) constraint (or CREATE TYPE if truly needed).
+- Full CHECK, partial and expression indexes, deferrable constraints are available.

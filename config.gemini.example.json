@@ -1,0 +1,12 @@
+{
+  "provider": "openai_compatible",
+  "model": "gemini-3.5-flash",
+  "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "api_key_env": "GEMINI_API_KEY",
+  "temperature": 0.2,
+  "timeout": 180,
+  "max_attempts": 2,
+  "retry_delay": 2,
+  "json_mode": true,
+  "sessions_dir": "sessions"
+}

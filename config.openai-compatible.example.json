@@ -1,0 +1,12 @@
+{
+  "provider": "openai_compatible",
+  "model": "gpt-4o-mini",
+  "base_url": "https://api.openai.com/v1",
+  "api_key_env": "OPENAI_API_KEY",
+  "temperature": 0.2,
+  "timeout": 120,
+  "max_attempts": 3,
+  "retry_delay": 2,
+  "json_mode": false,
+  "sessions_dir": "sessions"
+}

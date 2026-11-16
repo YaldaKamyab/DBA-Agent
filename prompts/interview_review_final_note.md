@@ -1,0 +1,1 @@
+NOTE: this was the FINAL round. The interview will be closed now and no further questions can be asked. Set "enough_information" to true only if every category is truly understood. Otherwise set it to false and list in "follow_up_questions" the most important REMAINING GAPS (they will not be asked; they will be recorded as unresolved requirements for the later design stages).

@@ -1,0 +1,3 @@
+- Types: INT/BIGINT with IDENTITY(1,1) for surrogate keys, NVARCHAR(n)/VARCHAR(n)/NVARCHAR(MAX), DECIMAL(p,s), BIT for booleans, DATE, TIME, DATETIME2, UNIQUEIDENTIFIER, VARBINARY.
+- No native enum or boolean: use CHECK constraints. Filtered indexes are supported.
+- Foreign keys: RESTRICT is not supported, use NO ACTION. Multiple cascade paths to the same table are rejected: use NO ACTION on at least one of them.

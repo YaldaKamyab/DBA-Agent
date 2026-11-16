@@ -1,0 +1,3 @@
+- Types: INT/BIGINT with AUTO_INCREMENT for surrogate keys, VARCHAR(n)/TEXT, DECIMAL(p,s), BOOLEAN (TINYINT(1)), DATE, TIME, DATETIME/TIMESTAMP, CHAR(36) or BINARY(16) for UUID, JSON.
+- Use the InnoDB engine (foreign keys). Enums: ENUM('a','b') or a CHECK constraint (CHECK is enforced from MySQL 8.0.16 / MariaDB 10.2.1).
+- No partial indexes; avoid function-based expressions that older versions reject. VARCHAR in indexed/unique columns needs a sensible length.
